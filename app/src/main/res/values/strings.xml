@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btneq">=</string>
+    <string name="btn0">0</string>
+    <string name="btnDot">.</string>
+    <string name="btn9">9</string>
+    <string name="btn8">8</string>
+    <string name="btn7">7</string>
+    <string name="btnDel">del</string>
+    <string name="btn6">6</string>
+    <string name="btn5">5</string>
+    <string name="btn4">4</string>
+    <string name="btnSub">-</string>
+    <string name="btnAdd">+</string>
+    <string name="btnMu">*</string>
+    <string name="btnDiv">/</string>
+    <string name="btnPow">^</string>
+    <string name="btnRp">)</string>
+    <string name="btnLp">(</string>
+    <string name="txt">0</string>
+    <string name="txtResult">=</string>
+    <string name="action_about">About</string>
+    <string name="about">
+        \nThis calculator app is
+        \ncreated by <b>Suvankar Mitra</b>.
+    </string>
+    <string name="email">suvankarforandroid@gmail.com</string>
+    <string name="email_dialouge">For bug reports or\nqueries please e-mail me @</string>
+</resources>

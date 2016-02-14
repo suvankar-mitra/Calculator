@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/about"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:background="#11144b"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:id="@+id/okay"
+        android:theme="@style/MyButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/textView2"
+        android:textSize="30dp"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:id="@+id/mail"
+        android:theme="@style/MyButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="#fffdfd"
+        android:layout_marginTop="153dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/email_dialouge"
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/mail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="52dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center" />
+</RelativeLayout>
